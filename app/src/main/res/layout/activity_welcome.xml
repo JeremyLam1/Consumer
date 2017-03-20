@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcome_page_bg"
+    tools:context=".welcome.WelcomeActivity">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:layout_above="@+id/v_divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/app_logo" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        fontPath="fonts/Bodoni_MT_Black.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        fontPath="fonts/Bodoni_MT_Black.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="v1.0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingPrefix" />
+
+</RelativeLayout>

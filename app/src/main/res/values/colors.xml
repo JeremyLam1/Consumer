@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="themeColor">#48B0ED</color>-->
+    <color name="themeColor">@color/green</color>
+
+    <color name="colorPrimary">@color/themeColor</color>
+    <color name="colorPrimaryDark">@color/themeColor</color>
+    <color name="colorAccent">@color/themeColor</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="light_gray">#f2f2f2</color>
+    <color name="dark_white">#80ffffff</color>
+    <color name="white">#fff</color>
+    <color name="red_dark">@android:color/holo_red_dark</color>
+    <color name="red_light">@android:color/holo_red_light</color>
+    <color name="gray">#a6a6a6</color>
+    <color name="black">#262626</color>
+    <color name="green">#00b04f</color>
+    <color name="purple">@android:color/holo_purple</color>
+    <color name="light_green">#9abb59</color>
+
+    <color name="welcome_page_bg">@color/themeColor</color>
+    <color name="about_page_bg">@color/themeColor</color>
+    <color name="toolbar_bg">@color/themeColor</color>
+    <color name="form_title">#9948B0ED</color>
+    <color name="card_list_item_bg">@color/white</color>
+    <color name="page_bg">#eeeeee</color>
+    <color name="pop_up_bg">#4f81bd</color>
+    <color name="col_line">#20000000</color>
+    <color name="row_line">#20000000</color>
+    <color name="cardview_bg">#9948B0ED</color>
+    <color name="txt_template_bg">@color/white</color>
+    <color name="btn_send_bg">#99b6d9</color>
+    <color name="tab_bg">#9948B0ED</color>
+</resources>

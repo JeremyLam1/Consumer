@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="service_base_url">https://www.baidu.com/</string>
+    <!--版本更新-->
+    <string name="version_update_url">https://www.baidu.com/</string>
+    <!--数据备份-->
+    <string name="db_backup_url">https://www.baidu.com/</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:background="@drawable/selector_white_bg"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/cb_select"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="22dp"
+        android:background="@color/col_line" />
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/transparent_bg_selector"
+        android:padding="2dp"
+        android:src="@android:drawable/ic_delete" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="22dp"
+        android:background="@color/col_line" />
+
+    <TextView
+        android:id="@+id/tv_bom_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="洗车"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="22dp"
+        android:background="@color/col_line" />
+
+    <TextView
+        android:id="@+id/tv_unit_price"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="50"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="22dp"
+        android:background="@color/col_line" />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="元"
+        android:textColor="@color/black" />
+</LinearLayout>
